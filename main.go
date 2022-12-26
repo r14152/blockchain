@@ -1,6 +1,10 @@
 package main
 
+import (
+	"github.com/blockchain_go/cli"
+)
+
 func main() {
-	cli := CLI{}
+	cli := cli.CommandLineInterface{}
 	cli.Run()
 }
